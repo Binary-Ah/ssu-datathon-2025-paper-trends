@@ -1,4 +1,4 @@
-# SSU Datathon 2025 — 사회과학 논문 토픽 지형과 인용 네트워크 파편화 분석
+# SSU 데이터톤 2025 — 사회과학 논문 연구 트렌드 분석 (토픽 지형 · 인용 네트워크)
 
 숭실대 데이터톤 2025 제공 데이터(DBpia 논문 메타데이터)에서 **사회과학 16개 중분류 논문 54,328건**을 골라,
 무슨 주제가 연구되고 있는지(토픽)와 연구들이 서로 얼마나 연결되어 있는지(인용 네트워크)를 분석했다.
@@ -32,6 +32,9 @@ export GEMINI_API_KEY=...     # (선택) 토픽 라벨링
 python src/kci_scraper.py data/SSU_Datathon2025.json
 python src/final_task.py      # 실행 폴더의 SSU_Datathon2025_result.json 을 읽어 Step 1~4 실행
 ```
+
+## Related
+같은 대회의 2024년 참가작(도서관 대출 데이터 기반 장서 관리)은 [ssu-library-datathon-2024](https://github.com/Binary-Ah/ssu-library-datathon-2024).
 
 ## 데이터
 대회 제공 데이터(DBpia 논문 메타데이터 JSON, 수백 MB)와 중간 산출물은 대회 규정·용량 문제로 포함하지 않았다.
