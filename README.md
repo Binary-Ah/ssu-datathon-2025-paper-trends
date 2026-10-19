@@ -30,7 +30,7 @@ pip install -r requirements.txt
 export KCI_API_KEY=...        # KCI Open API 인증키
 export GEMINI_API_KEY=...     # (선택) 토픽 라벨링
 python src/kci_scraper.py data/SSU_Datathon2025.json
-python src/final_task.py      # data/SSU_Datathon2025_result.json 을 읽어 Step 1~4 실행
+python src/final_task.py      # 실행 폴더의 SSU_Datathon2025_result.json 을 읽어 Step 1~4 실행
 ```
 
 ## 데이터
